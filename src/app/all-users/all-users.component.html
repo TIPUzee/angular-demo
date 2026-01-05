@@ -1,0 +1,7 @@
+<div class="content">
+
+   <h3>All User Details</h3>
+   <ng-container *ngFor="let user of usersData.getUsers()">
+      <app-data-card [user]="user"></app-data-card>
+   </ng-container>
+</div>

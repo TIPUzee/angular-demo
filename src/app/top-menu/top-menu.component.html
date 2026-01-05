@@ -1,0 +1,7 @@
+<div class="menu">
+ <a *ngFor="let item of menuItems"
+     [routerLink]="item.path"
+     [class.space]="item.type === 'spacer'">
+    {{ item.label }}
+  </a>
+</div>

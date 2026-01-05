@@ -1,0 +1,21 @@
+<div class="content">
+   <form [formGroup]="loginForm" (ngSubmit)="submit()" class="login-form">
+      <h2 class="title">Login</h2>
+      <label>
+         <div>Email</div>
+         <input type="email" formControlName="email">
+      </label>
+
+      <label>
+         <div>Password</div>
+         <input type="password" formControlName="password">
+      </label>
+
+      <input class="submit" type="submit">
+   </form>
+
+   <div class="output">
+      <div class="email">{{ submitted.email }}</div>
+      <div class="password">{{ submitted.password }}</div>
+   </div>
+</div>

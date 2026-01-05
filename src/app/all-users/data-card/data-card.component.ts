@@ -1,0 +1,11 @@
+import { Component, Input } from '@angular/core'
+import { UserData } from '../../services/users-data.service'
+
+@Component({
+  selector: 'app-data-card',
+  templateUrl: './data-card.component.html',
+  styleUrls: ['./data-card.component.scss']
+})
+export class DataCardComponent {
+  @Input() user!: UserData;
+}

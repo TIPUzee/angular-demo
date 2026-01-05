@@ -1,0 +1,11 @@
+<div *ngIf="user" class="content">
+   <h6>ID: {{ user.id }}</h6>
+   <h1>Name: {{ user.name }}</h1>
+   <h3>Age: {{ user.age }} years old</h3>
+   <h3>Phone Number: {{ user.phoneNumber }}</h3>
+</div>
+<div *ngIf="!user" class="content">
+   <h1>
+      Invalid User Data
+   </h1>
+</div>

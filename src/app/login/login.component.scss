@@ -1,0 +1,29 @@
+.title {
+    margin: 0;
+}
+
+.login-form {
+    border-radius: 20px;
+    background-color: bisque;
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+
+    input {
+        padding: 7px;
+        box-shadow: 0 0 3px grey inset;
+        border-radius: 7px;
+        outline: 0;
+        border: 0;
+
+        &:hover {
+            box-shadow: 0 0 3px black inset;
+        }
+
+        &[type="submit"] {
+            width: 175px;
+        }
+    }
+}

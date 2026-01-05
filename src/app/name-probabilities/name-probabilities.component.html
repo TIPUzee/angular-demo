@@ -1,0 +1,12 @@
+<div class="content">
+   <div *ngFor="let details of nameProbabilities">
+      <div>Name: {{details.name}}</div>
+      <div>Count: {{details.count}}</div>
+      <div>
+         Countries:
+         <div *ngFor="let country of details.country" class="country-id">
+            {{country.country_id}} with {{country.probability}}
+         </div>
+      </div>
+   </div>
+</div>

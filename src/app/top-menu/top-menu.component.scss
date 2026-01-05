@@ -1,0 +1,28 @@
+.menu {
+    padding-block: 10px;
+    padding-inline: 30px;
+    background-color: darkslategray;
+    display: flex;
+    gap: 10px;
+
+    .space {
+        width: 100%;
+    }
+
+    a:not(.space) {
+        text-decoration: none;
+        background-color: beige;
+        opacity: 70%;
+        display: flex;
+        text-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+        padding-inline: 15px;
+        padding-block: 10px;
+        border-radius: 10px;
+
+        &:hover {
+            opacity: 100%;
+        }
+    }
+}
