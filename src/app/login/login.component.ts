@@ -31,11 +31,9 @@ export class LoginComponent
         }
         
         const { email, password } = this.loginForm.value
-        console.log('Login payload:', { email, password })
         this.submitted = {
             // @ts-expect-error
             email, password
         }
-        // call auth service here
     }
 }

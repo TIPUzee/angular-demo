@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing'
-
 import { LoginComponent } from './login.component'
 import { ReactiveFormsModule } from '@angular/forms'
 import { By } from '@angular/platform-browser'
@@ -14,7 +13,7 @@ describe('LoginComponent', () =>
     {
         TestBed.configureTestingModule({
             imports: [ReactiveFormsModule],
-            declarations: [LoginComponent]
+            declarations: [LoginComponent],
         })
         fixture = TestBed.createComponent(LoginComponent)
         component = fixture.componentInstance
