@@ -1,0 +1,25 @@
+.content {
+    border-radius: 20px;
+    background-color: bisque;
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+
+    .go-back {
+        display: block;
+        margin-inline: auto;
+        width: fit-content;
+        padding: 10px;
+        border-radius: 7px;
+        background-color: darkslategray;
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+            background-color: black;
+        }
+    }
+
+}

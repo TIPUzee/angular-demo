@@ -12,6 +12,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AllUsersComponent } from './all-users/all-users.component';
 import { DataCardComponent } from './all-users/data-card/data-card.component'
 import { HttpClientModule } from '@angular/common/http'
+import { CatsComponent } from './cats/cats.component'
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { HttpClientModule } from '@angular/common/http'
         LoginComponent,
         NameProbabilitiesComponent,
         AllUsersComponent,
-        DataCardComponent
+        DataCardComponent,
+        CatsComponent,
     ],
     imports: [
         BrowserModule,

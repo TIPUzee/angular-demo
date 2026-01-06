@@ -11,6 +11,7 @@ export class TopMenuComponent {
     { label: '', path: '', type: 'spacer' },
     { label: 'Home', path: '/', type: 'link' },
     { label: 'Name Probabilities', path: '/name-probabilities', type: 'link' },
+    { label: 'Cat Facts', path: '/cat-facts', type: 'link' },
     { label: 'All Users', path: '/all-users', type: 'link' },
     { label: 'Login', path: '/login', type: 'link' }
   ];
